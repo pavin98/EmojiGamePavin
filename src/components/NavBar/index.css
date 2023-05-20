@@ -1,0 +1,36 @@
+/* Write your code here. */
+nav {
+  background-color: #ffffff33;
+  background-size: cover;
+}
+.ulCard {
+  list-style: none;
+  margin: 0px 0px;
+  padding: 5px 35px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  color: #ffffff;
+  font-size: large;
+  font-weight: bold;
+}
+.logoList,
+.scoreCard {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}
+.scoreCard {
+  margin-left: auto;
+}
+.displayCard {
+  display: none;
+}
+.score {
+  margin: 0px 10px;
+}
